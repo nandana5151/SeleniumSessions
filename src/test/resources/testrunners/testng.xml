@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation Suite" thread-count="3"   parallel="tests" verbose="3">
+
+	<test name="GoogleTest">
+		<classes>
+			<class name="TestNGSessions.GoogleTest" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="FlipkartTest">
+		<classes>
+			<class name="TestNGSessions.FlipkartTest" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="NoonTest">
+		<classes>
+			<class name="TestNGSessions.NoonTest" />
+		</classes>
+
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->
